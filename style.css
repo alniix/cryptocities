@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    font-family:'Ubuntu', sans-serif;
+    background: url("imgs/bgimagetest.png");
+    background-attachment: fixed;
+    color: seashell;
+    margin: 0;
+    
+}
+
+/* Nav Bar */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo_img{
+    min-width: 15%;
+    max-width: 18%;
+    margin-right: 2%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px 10%;
+    margin: 1% 15% 0 15% ;
+    width: 70%;
+    background-color: #24252ab7;
+    border-radius: 25px;
+    overflow: hidden;
+    position: fixed;
+    box-shadow: -2px 1px 19px -7px #000000;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: cornflowerblue; 
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #354ab1e1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: seashell;
+    
+    
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Main text */
+
+.maintext{
+    margin: 0 25%;
+    text-align: center;
+
+}
+
+@keyframes color-change {
+    0% { color: #FF87CA; }
+    50% { color:  #FFC4E1 }
+    100% { color: #FF87CA; }
+  }
+
+  @keyframes color-change2 {
+    0% { color: #D7E9F7; }
+    50% { color:  #F4D19B }
+    100% { color: #D7E9F7; }
+  }
+
+
+.maintext h1{
+    padding-top: 5%;
+    font-size: 42px;
+    animation: color-change 2s infinite;
+}
+
+#arrow_down{
+    width: 80px;
+    margin: 0 40%;
+}
+
+/* P2 */
+.part2{
+    background: rgb(31,31,32);
+    background: linear-gradient(0deg, rgba(31,31,32,1) 46%, rgba(31,31,32,0.6978992280505952) 76%, rgba(255,255,255,0) 100%); 
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2 h1{
+    font-size: 50px;
+    animation: color-change2 2s infinite;
+}
+
+.part2 p{
+    font-size: 20px;
+}
+
+.texte_p2{
+    width: 35%;
+    margin: 0 0 0 20%;
+}
+
+/* p3 */
+
+.part3{
+    background: rgb(31,31,32);
+    background: linear-gradient(180deg, rgba(31,31,32,1) 46%, rgba(31,31,32,0.6978992280505952) 76%, rgba(255,255,255,0) 100%); 
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.texte_p3{
+    width: 35%;
+    margin: 0 20% 0 0;
+}
+
+.part3 h1{
+    font-size: 50px;
+    animation: color-change2 2s infinite;
+}
+
+.part3 p{
+    font-size: 20px;
+}
+
+/* p4 */
+
+.part4{
+    width: 100%;
+    height: 400px;
+}
+
+.part4 p{
+    font-size: 20px;
+}
+
+#h1p41{
+    text-align: center;
+    font-size: 50px;
+    animation: color-change 1s infinite;
+}
+
+#h1p4{
+    text-align: center;
+    font-size: 50px;
+    animation: color-change 1s infinite;
+}
+.p4stages{
+    text-align: center;
+    margin: 0 10%;
+}
